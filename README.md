@@ -25,7 +25,7 @@ https://www.imooc.com/u/3330348/courses?sort=publish<p>
 # 项目构建
 * .gradle			-项目的自动化构建工具
 * .idea				-项目开发所使用到的环境，当前电脑的AS开发环境，不同的电脑、AS版本、gradle版本，对应的.idea文件夹下的内容有所不同
-* app				-开发项目所有的代码和资源文件
+* app				-开发项目所有的代码和资源文件<p>
 	﹂libs			-主要用于存放jar包，也可以放一些arr文件<p>
 	﹂src			-主要存放代码：java文件、资源文件、配置文件等<p>
 	﹂build.gradle	-当前module上gradle的编译文件，只对当前module生效，里面是当前module的一些基础配置：SDK版本号、第三方库等
@@ -36,9 +36,11 @@ https://www.imooc.com/u/3330348/courses?sort=publish<p>
 * settings.gradle	-当前project引入的module，gradle在初始化时会优先加载这个文件
 
 # 设置statusBar颜色
-* colorPrimaryDark与statusBarColor
-  相同点：1、修改statusBar颜色<p>
-          2、Android 5.0以上才能支持<p>
-  不同点：1、statusBarColor具有更高优先级<p>
-          2、statusBarColor在Android 5.0以下的版本中会出现警告提示<p>
-		  3、默认情况下，statusBarColor的值继承自colorPrimaryDark
+colorPrimaryDark与statusBarColor
+* 相同点：<p>
+	1、修改statusBar颜色<p>
+	2、Android 5.0以上才能支持<p>
+* 不同点：<p>
+	1、statusBarColor具有更高优先级<p>
+	2、statusBarColor在Android 5.0以下的版本中会出现警告提示<p>
+	3、默认情况下，statusBarColor的值继承自colorPrimaryDark
