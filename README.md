@@ -34,3 +34,11 @@ https://www.imooc.com/u/3330348/courses?sort=publish
 * build.gradle		-配置了所有module的通用配置信息，对整个project生效
 * local.properties	-当前电脑的SDK地址
 * settings.gradle	-当前project引入的module，gradle在初始化时会优先加载这个文件
+
+# 设置statusBar颜色
+* colorPrimaryDark与statusBarColor
+  相同点：1、修改statusBar颜色
+          2、Android 5.0以上才能支持
+  不同点：1、statusBarColor具有更高优先级
+          2、statusBarColor在Android 5.0以下的版本中会出现警告提示
+		  3、默认情况下，statusBarColor的值继承自colorPrimaryDark

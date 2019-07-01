@@ -1,10 +1,10 @@
-package com.panj.imoocmusic;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.panj.imoocmusic.activity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.panj.imoocmusic.R;
+
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
