@@ -23,4 +23,30 @@
         app:input_hint="@string/phone_number"
         app:input_icon="@mipmap/phone"
         app:is_password="false" />
+
+    <View style="@style/line" />
+
+    <com.panj.imoocmusic.view.InputView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        android:layout_marginTop="@dimen/marginSize"
+        app:input_hint="@string/password"
+        app:input_icon="@mipmap/password"
+        app:is_password="true" />
+
+    <View style="@style/line" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onRegisterClick"
+        android:padding="@dimen/marginSize"
+        android:text="@string/register"
+        android:textColor="@color/mainColor" />
+
+    <Button
+        style="@style/commitBtn"
+        android:layout_marginTop="@dimen/marginSize"
+        android:text="@string/login" />
 </LinearLayout>

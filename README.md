@@ -44,3 +44,8 @@ colorPrimaryDark与statusBarColor
 	1、statusBarColor具有更高优先级<p>
 	2、statusBarColor在Android 5.0以下的版本中会出现警告提示<p>
 	3、默认情况下，statusBarColor的值继承自colorPrimaryDark
+	
+# 全局通用UI
+* include layout布局-nav_bar.xml
+* 自定义View：在values-attrs.xml中声明样式，自定义属性-InputView
+* 在style中定义-<View style="@style/line"/>
