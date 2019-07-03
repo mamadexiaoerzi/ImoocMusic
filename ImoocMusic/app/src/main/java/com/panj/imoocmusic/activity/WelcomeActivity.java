@@ -36,7 +36,7 @@ public class WelcomeActivity extends BaseActivity {
 //                toMain();
                 toLogin();
             }
-        }, 3 * 1000);
+        }, 1000);
     }
 
     /**

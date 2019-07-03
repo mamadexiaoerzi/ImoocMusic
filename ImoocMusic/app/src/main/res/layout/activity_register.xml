@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".activity.LoginActivity">
+    tools:context=".activity.RegisterActivity">
 
     <include layout="@layout/nav_bar" />
 
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/inputViewHeight"
         android:layout_marginTop="@dimen/marginSize"
-        app:input_hint="@string/phone"
+        app:input_hint="@string/input_phone"
         app:input_icon="@mipmap/phone"
         app:is_password="false" />
 
@@ -32,24 +32,25 @@
         android:id="@+id/input_password"
         android:layout_width="match_parent"
         android:layout_height="@dimen/inputViewHeight"
-        app:input_hint="@string/password"
+        app:input_hint="@string/input_password"
         app:input_icon="@mipmap/password"
         app:is_password="true" />
 
     <View style="@style/line" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:onClick="onRegisterClick"
-        android:padding="@dimen/marginSize"
-        android:text="@string/register_now"
-        android:textColor="@color/mainColor" />
+    <com.panj.imoocmusic.view.InputView
+        android:id="@+id/input_password_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHeight"
+        app:input_hint="@string/input_password_confirm"
+        app:input_icon="@mipmap/password"
+        app:is_password="true" />
+
+    <View style="@style/line" />
 
     <Button
         style="@style/commitBtn"
         android:layout_marginTop="@dimen/marginSize"
-        android:onClick="onCommitClick"
-        android:text="@string/login" />
+        android:onClick="onRegisterClick"
+        android:text="@string/register" />
 </LinearLayout>

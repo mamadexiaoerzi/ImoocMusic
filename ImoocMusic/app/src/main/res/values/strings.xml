@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">慕课音乐</string>
-    <string name="phone_number">手机号</string>
+
+    <string name="phone">手机号</string>
     <string name="password">密码</string>
-    <string name="register">立即注册</string>
+    <string name="register_now">立即注册</string>
     <string name="login">登  录</string>
+
+    <string name="input_phone">请输入手机号</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_password_confirm">请确认密码</string>
+    <string name="register">注  册</string>
 </resources>
