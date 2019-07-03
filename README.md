@@ -48,7 +48,7 @@ colorPrimaryDark与statusBarColor
 # 全局通用UI
 * include layout布局-nav_bar.xml
 * 自定义View：在values-attrs.xml中声明样式，自定义属性-InputView
-* 在style中定义-<View style="@style/line"/>
+* 在style中定义-分割线、过渡动画
 
 # 用户输入合法性检验
 * 登录(手机号、密码) <-> 服务器 <-> 数据库
