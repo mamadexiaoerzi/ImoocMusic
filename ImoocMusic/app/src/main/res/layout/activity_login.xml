@@ -14,9 +14,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/marginSize"
+        android:contentDescription="@null"
         android:src="@mipmap/logo" />
 
     <com.panj.imoocmusic.view.InputView
+        android:id="@+id/input_phone"
         android:layout_width="match_parent"
         android:layout_height="@dimen/inputViewHeight"
         android:layout_marginTop="@dimen/marginSize"
@@ -27,6 +29,7 @@
     <View style="@style/line" />
 
     <com.panj.imoocmusic.view.InputView
+        android:id="@+id/input_password"
         android:layout_width="match_parent"
         android:layout_height="@dimen/inputViewHeight"
         android:layout_marginTop="@dimen/marginSize"
@@ -47,6 +50,7 @@
 
     <Button
         style="@style/commitBtn"
+        android:onClick="onCommitClick"
         android:layout_marginTop="@dimen/marginSize"
         android:text="@string/login" />
 </LinearLayout>

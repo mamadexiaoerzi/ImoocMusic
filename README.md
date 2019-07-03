@@ -49,3 +49,7 @@ colorPrimaryDark与statusBarColor
 * include layout布局-nav_bar.xml
 * 自定义View：在values-attrs.xml中声明样式，自定义属性-InputView
 * 在style中定义-<View style="@style/line"/>
+
+# 用户输入合法性检验
+* 登录(手机号、密码) <-> 服务器 <-> 数据库
+* AndroidUtilCode框架的引入
