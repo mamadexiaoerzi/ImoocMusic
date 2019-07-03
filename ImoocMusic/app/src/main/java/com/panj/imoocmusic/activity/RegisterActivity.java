@@ -23,5 +23,6 @@ public class RegisterActivity extends BaseActivity {
     }
 
     public void onRegisterClick(View view) {
+
     }
 }

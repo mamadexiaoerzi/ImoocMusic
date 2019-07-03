@@ -10,4 +10,13 @@
     <string name="input_password">请输入密码</string>
     <string name="input_password_confirm">请确认密码</string>
     <string name="register">注  册</string>
+
+    <string name="user_name">用户名：</string>
+    <string name="change_password">修改密码</string>
+    <string name="logout">退出登录</string>
+
+    <string name="input_old_password">请输入原密码</string>
+    <string name="input_new_password">请输入新密码</string>
+    <string name="confirm_new_password">请确认新密码</string>
+    <string name="confirm">确  定</string>
 </resources>

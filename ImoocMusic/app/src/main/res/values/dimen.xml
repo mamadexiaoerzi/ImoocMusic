@@ -4,6 +4,7 @@
     <dimen name="navBarHeight">56dp</dimen>
     <dimen name="inputViewHeight">44dp</dimen>
     <dimen name="btnHeight">44dp</dimen>
+    <dimen name="itemHeight">44dp</dimen>
 
     <dimen name="marginSize">16dp</dimen>
     <dimen name="radius">5dp</dimen>

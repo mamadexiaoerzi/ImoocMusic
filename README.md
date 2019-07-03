@@ -61,3 +61,12 @@ colorPrimaryDark与statusBarColor
 * 退出Activity时<p>
 	1、退出的Activity执行动画：从左到右<p>
 	2、重新显示的Activity执行动画：以页面中间为中心点的缩放动画<p>
+(华为M5测试无动画效果)
+
+# 任务和返回栈（Task栈）
+任务是指在执行特定作业时与用户交互的一系列Activity。这些Activity按照各自的打开顺序在堆栈（即返回栈）中。
+
+# Intent标志符
+启动新的Activity时，可以通过在传递给startActivity()的Intent中加入相应的标志，修改Activity与其任务的默认关联方式。
+* Intent.FLAG_ACTIVITY_CLEAR_TASK：清除当前Task栈内的Activity
+* Intent.FLAG_ACTIVITY_NEW_TASK：创建一个新的Task栈
