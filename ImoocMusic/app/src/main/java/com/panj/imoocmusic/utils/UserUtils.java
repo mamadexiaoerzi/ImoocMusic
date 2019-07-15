@@ -1,4 +1,4 @@
-package com.panj.imoocmusic.Utils;
+package com.panj.imoocmusic.utils;
 
 import android.app.Activity;
 import android.content.Context;

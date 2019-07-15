@@ -4,9 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.blankj.utilcode.util.Utils;
 import com.panj.imoocmusic.R;
-import com.panj.imoocmusic.Utils.UserUtils;
 import com.panj.imoocmusic.view.InputView;
 
 // NavigationBar - IOS 统一风格

@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.panj.imoocmusic.R;
-import com.panj.imoocmusic.Utils.UserUtils;
+import com.panj.imoocmusic.utils.UserUtils;
 
 public class MeActivity extends BaseActivity {
 
